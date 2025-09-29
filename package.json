@@ -1,0 +1,25 @@
+{
+  "name": "comp3104",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000O\u0000M\u0000P\u00003\u00001\u00000\u00004\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests created yet.\"",mkdir build
+    echo "<h1>Hello CI/CD</h1>" > build/index.html
+    git add build
+    git commit -m "Add build folder with index.html"
+    git push origin main
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyech11/COMP3104.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyech11/COMP3104/issues"
+  },
+  "homepage": "https://github.com/Hyech11/COMP3104#readme"
+}
